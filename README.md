@@ -35,6 +35,7 @@ We are now able to clone the project and run it but before we do that, we will d
 
 ```cmd
 mkdir <projectName>
+cd <projectName>
 virtualenv -p python3 <venvName>
 source <venvName>/bin/activate
 pip install selenium
